@@ -1,0 +1,15 @@
+$color : #e1e2e1;
+
+@font-face {
+	font-family: 'TheBlacklist';
+	src: url('/src/assets/font/TheBlacklist/TheBlacklist.eot');
+	src: local('TheBlacklist'), url('/src/assets/font/TheBlacklist/TheBlacklist.woff') format('woff'), url('/src/assets/font/TheBlacklist/TheBlacklist.ttf') format('truetype');
+}
+#app{
+    background: red;
+    h1{
+        padding: 20px;
+        color: $color;
+        font-family: "TheBlacklist"
+    }
+}
